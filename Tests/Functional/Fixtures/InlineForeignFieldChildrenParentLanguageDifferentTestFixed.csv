@@ -10,8 +10,8 @@
 ,"uid","pid","sys_language_uid","l10n_parent","deleted","uid_local","uid_foreign","tablenames","title"
 ,1,1,0,0,0,1,1,"tt_content","Ok tt_content 1 - both lang 0"
 ,2,1,1,0,0,1,2,"tt_content","Ok tt_content 2 - both lang 1"
-,3,1,0,0,1,1,3,"tt_content","Not Ok - parent 1, child 0"
-,4,1,1,0,1,1,1,"tt_content","Not Ok - parent 0, child 1"
+,3,1,1,0,0,1,3,"tt_content","Not Ok - parent 1, child 0"
+,4,1,0,0,0,1,1,"tt_content","Not Ok - parent 0, child 1"
 # Keep those - handled by "missing" check already
 ,5,1,0,0,0,0,1,0,"tt_content","Ok - tt_content 0 can not exist"
 ,6,1,0,0,0,0,1,0,"","Ok - empty uid, empty table"
