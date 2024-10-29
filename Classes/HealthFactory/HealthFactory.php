@@ -26,6 +26,7 @@ final class HealthFactory implements HealthFactoryInterface
      * @var string[]
      */
     private array $healthClasses = [
+        HealthCheck\SiteLanguageDeleted::class,
         HealthCheck\WorkspacesNotLoadedRecordsDangling::class,
         HealthCheck\WorkspacesRecordsOfDeletedWorkspaces::class,
         HealthCheck\TcaTablesDeleteFlagZeroOrOne::class,
